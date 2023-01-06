@@ -61,6 +61,7 @@ section {
 .section-title {
   font-weight: 700;
   font-size: 40px;
+  color: #151414;
 }
 .section-desc {
   color: #444343;
@@ -75,4 +76,68 @@ section {
 }
 .failure-list i {
   color: #00db8e;
+}
+
+/* My plans section styles */
+.my-plans {
+  text-align: center;
+  margin: 0 100px;
+}
+.my-plans-all {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 55px;
+}
+.item-icon {
+  height: 92px;
+  width: 92px;
+}
+.item-title {
+  font-size: 30px;
+  color: #151414;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.item-desc {
+  color: #737272;
+  font-size: 25px;
+}
+
+/* Call section styles */
+.call-content {
+  background: linear-gradient(
+      to right,
+      rgb(247 76 2 / 65%),
+      rgb(249 249 249 / 9%)
+    ),
+    url(../images/watch.png);
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1140px;
+  height: 300px;
+  border-radius: 10px;
+}
+.call-section .section-title {
+  color: #ffffff;
+  width: 50%;
+  padding: 60px 0 0 60px;
+}
+.call-section .btn-primary,
+.footer-content .btn-primary {
+  color: #f15b22;
+  background-color: #ffffff;
+  margin: 24px 0 0 60px;
+}
+
+/* footer section styles */
+#footer {
+  background-color: #151414;
+}
+.footer-content {
+  display: flex;
+}
+.footer-title {
+  font-size: 45px;
+  color: #ffffff;
 }
