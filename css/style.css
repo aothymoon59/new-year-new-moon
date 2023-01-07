@@ -16,7 +16,7 @@
 }
 
 section {
-  padding-top: 130px;
+  padding: 130px 5% 0;
 }
 /* nav bar styles */
 .nav-bar {
@@ -24,7 +24,6 @@ section {
   padding: 10px 130px;
   justify-content: space-between;
   background-color: #0404041c;
-  margin-bottom: 40px;
 }
 .nav-icon {
   font-size: 40px;
@@ -64,11 +63,12 @@ section {
   display: flex;
   justify-content: right;
   align-items: center;
+  height: 80vh;
+  padding: 0 7%;
 }
 .header-content {
-  width: 35%;
+  width: 45%;
   text-align: right;
-  padding-right: 130px;
 }
 .header-title {
   font-size: 65px;
@@ -84,7 +84,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 100px;
   gap: 87px;
 }
 .my-failure-img img {
@@ -118,11 +117,10 @@ section {
 /* My plans section styles */
 .my-plans {
   text-align: center;
-  margin: 0 100px;
 }
 .my-plans-all {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 55px;
 }
 .item-icon {
@@ -169,10 +167,9 @@ section {
 /* Keep inspire section styles */
 .keep-inspire {
   text-align: center;
-  margin: 0 130px;
 }
 .keep-inspire-content {
-  margin-top: 50px;
+  padding: 50px 2% 0;
 }
 .keep-inspire .section-desc {
   color: #444343;
@@ -199,7 +196,7 @@ section {
 }
 .footer-content {
   display: flex;
-  padding: 80px 130px;
+  padding: 80px 5%;
   gap: 250px;
 }
 .footer-texts {
